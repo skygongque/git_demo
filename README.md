@@ -6,7 +6,7 @@
 本地仓库
 远程库
 
-# 本地几个区的一些常见命令
+# 一些常见命令
 工作区 => 暂存区 
 
 `
@@ -19,7 +19,7 @@ git add [file][.]
 git commit -m "something you wanna say"
 `
 
-# 版本的回滚
+## 版本的回滚
 
 `
 git reset [commit id]
@@ -33,6 +33,25 @@ git log --oneline
 #可以查看所有的commit id
 git reflog
 `
+
+## 克隆远端仓库
+
+`
+git clone [url]
+`
+
+## 提交文件给远端仓库
+
+`
+git push
+`
+
+## 从远端仓库取
+
+`
+git pull/fetch
+`
+
 
 
 
